@@ -34,3 +34,7 @@ var new_obj3 = {
 var foo = {unique_prop: 1}, bar = {unique_prop: 2}, object = {};
 object[foo] = 'value';
 console.log(object[bar]);
+
+/*
+ES6 부터 적용되는 이 객체 초기자는 literel만 가능한것으로 보인다.
+*/
