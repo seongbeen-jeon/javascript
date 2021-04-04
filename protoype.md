@@ -72,7 +72,6 @@ person1.constructor.name
 // constructor.name은 변경이 될 수 있습니다.(상속, 바인딩 등등..) 따라서 insatanceof 연산자를 사용하는것이 좋습니다.
 ```
 
-
 ***
 출처 :
 
