@@ -112,7 +112,7 @@ getPromise.then(function(text){
 
 프로미스에 주어진 콜백함수가 실패하면 ```Promise.prototype.catch(onRejected(reason))```를 통해 처리를 합니다.
 
-프로미스는 체이닝 형태로 여러 then을 연결하여 사용할 수 있습니다. 그러나 중간에 Error가 난다면 다음 then으로 넘어가지않고 onRejected에서 처리가 됩니다.
+프로미스는 체이닝 형태로 여러 then을 연결하여 사용할 수 있습니다. 그러나 중간에 Error가 난다면 다음 then으로 넘어가지않고 onRejected에서 처리가 됩니다. 또한 onFulfilled()에서 발생하는 에러르 처리할 수 없습니다.
 따라서 실패 처리를 위해서는 ```Promise(null,OnRejected)``` 형태로 사용해주려고 하는데 이것이 ```catch()``` 입니다.
 
 ```javascript
