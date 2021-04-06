@@ -16,6 +16,7 @@ ES6부터 JSON 객체를 사용하여 데이터를 다룰 수 있게 됩니다.
 기술들 :
 
 --------------
+```JSON
 {
   "name" : "seongbeen jeon",
   "age" : 24,
@@ -37,13 +38,13 @@ ES6부터 JSON 객체를 사용하여 데이터를 다룰 수 있게 됩니다.
     "Position" : "Web Backend"
   }
 }
-
+```
 ---------------
+```javascript
 User.name : seongbeen jeon
 User["name"] : seongbeen jeon
 User.skills["lang"][2] : C
-
-
+```
 ## JSON Method in ES6
 
 ### JSON.parse()
